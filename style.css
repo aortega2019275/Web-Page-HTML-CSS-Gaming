@@ -1,0 +1,137 @@
+header{
+	width: 100%;
+	height: 250px;
+	background: #481487;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+header a{
+	
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+header h1{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 55px;
+	color: white;
+	line-height: 150px;
+	font-weight: 300;
+}
+
+header img{
+	width:35px;
+    height:35px;
+ 	margin-left: 10px;
+ 	margin-right: 5px;
+	
+   } 
+header nav{
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	background: rgba(40, 3, 84, 0.8);
+}
+header nav a{
+	color: white;
+	display: inline-block;
+	padding: 10px 60px;
+	line-height: 1;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+footer{
+	width: 100%;
+	color: white;
+	background: #481487;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 300;
+	position: absolute;
+}
+.uno, .dos, .tres, .cuatro {
+	vertical-align: top;
+	display: inline-block;
+	margin: 15px ;
+	padding: 15px;
+	width: 250px;
+	height: 300px;
+}
+
+#photo{
+	width: 220px;
+	height: 250px;
+	position:relative;
+}
+
+.imgD{
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 20px 50px rgba(0,0,0,.9);
+	display: block;
+
+ 	 height: auto;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+article{
+	color: white;
+	text-align: center;
+}
+.padre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+ position: relative;
+ width: 200px;
+ height: 280px;
+	
+}
+.VistaD {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #281152;
+}
+ .container:hover .VistaD {
+  opacity: 0.8;
+}
+
+.desc {
+  text-align: left;
+  padding-bottom:  120px;
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+body{	
+			margin: 0;
+			padding: 0;
+			background: #0c002b;
+			font-family: sans-serif;
+			padding-top: 330px;
+		}
+	

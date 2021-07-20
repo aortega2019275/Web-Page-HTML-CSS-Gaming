@@ -1,0 +1,14 @@
+
+body {
+  background: linear-gradient(to right, #0c002b, #0c002b);
+}
+h1, h3, p,li, h4{
+	color: white;
+}
+nav{
+	background: linear-gradient(to right, #280354, #280354);
+	color: white;
+}
+div.h-100{
+	background: #481487;
+}
